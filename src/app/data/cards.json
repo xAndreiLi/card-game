@@ -1,0 +1,59 @@
+[
+    {
+        "id": 0,
+        "name": "Punch",
+        "type": "attack",
+        "description": "Just hit them!",
+        "power": 1,
+        "startup": 1,
+        "recovery": 1,
+        "tags": ["attack", "physical"],
+        "effect": false
+
+    },
+    {
+        "id": 1,
+        "name": "Kick",
+        "type": "attack",
+        "description": "Slow but sort of strong!",
+        "power": 2,
+        "startup": 2,
+        "recovery": 2,
+        "tags": ["attack", "physical"],
+        "effect": false
+
+    },
+    {
+        "id": 2,
+        "name": "Block",
+        "type": "defense",
+        "description": "Defend yourself!",
+        "power": 1,
+        "startup": 1,
+        "recovery": 1,
+        "tags": ["defense", "physical"],
+        "effect": false
+    },
+    {
+        "id": 3,
+        "name": "Forward Step",
+        "type": "movement",
+        "description": "Forwards!",
+        "power": 0,
+        "startup": 1,
+        "recovery": 1,
+        "tags": [],
+        "effect": false
+    },
+    {
+        "id": 4,
+        "name": "Back Step",
+        "type": "movement",
+        "description": "Woah!",
+        "power": 0,
+        "startup": 1,
+        "recovery": 1,
+        "tags": [],
+        "effect": false
+    }
+]
